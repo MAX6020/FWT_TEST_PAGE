@@ -31,6 +31,9 @@
         align-items: center;
         justify-content: center;
         border-radius: 4px;
+        &.focus{
+            background-color: var(--color-focus);
+        }
         &_disable{
             color: var(--color-font);
             width: 20px;

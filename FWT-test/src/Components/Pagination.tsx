@@ -101,7 +101,7 @@ const Pagination = ({ page, theme, setPage }: IProps) => {
           <span
             key={el}
             onClick={() => setPage(el)}
-            className={style.pagination_page}
+            className={page === el ? style.pagination_page + " " + style.focus : style.pagination_page}
           >
             {el}
           </span>

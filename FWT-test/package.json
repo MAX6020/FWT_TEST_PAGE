@@ -1,7 +1,6 @@
 {
   "name": "fwt-test",
   "private": true,
-  "homepage": "http://max6020.github.io/FWT_TEST_PAGE/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

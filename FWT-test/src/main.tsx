@@ -1,8 +1,8 @@
 import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
-import './assets/style/base/_reset.scss'
-import './assets/style/themes/_dark.module.scss'
-import './assets/style/themes/_light.module.scss'
+import './assets/style/base/reset.scss'
+import './assets/style/themes/dark.module.scss'
+import './assets/style/themes/light.module.scss'
 import App from './App.tsx'
 import { setupStore } from './redux/store.tsx'
 
